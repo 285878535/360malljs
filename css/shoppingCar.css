@@ -1,0 +1,131 @@
+#line {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid black
+}
+
+.gdTitle,.gdTitle1,.gdTitle2,.gdTitle3 {
+    width: 1240px;
+    height: 48px;
+    margin: 0 auto;
+    line-height: 48px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.gdTitle1 a,.gdTitle2 a,.gdTitle3 a{
+    width: 115px;
+    height: 48px;
+    display: block;
+    float: left;
+    color: gray;
+}
+.gdTitle1 a:hover{
+    color: green
+}
+.gdTitle2 a:hover{
+    color: green
+}
+.gdTitle3 a:hover{
+    color: green
+}
+.gdTitle1 span,.gdTitle2 span,.gdTitle3 span{
+     width: 115px;
+    height: 48px;
+    float: left;
+    line-height: 48px;
+    margin-top: 0
+}
+#gdListBg{
+    width: 100%;
+    height: 1800px;
+    background: #f5f5f5;
+}
+#gdList{
+    width: 1240px;
+    height: 1500px;
+    margin: 0 auto;
+}
+#gdList div{
+    width: 240px;
+    height: 325px;
+    float: left;
+    background: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center
+}
+#gdList div:nth-child(1),#gdList div:nth-child(6),#gdList div:nth-child(11),#gdList div:nth-child(16){
+    margin-left: 0;
+}
+#gdList div:nth-child(1),#gdList div:nth-child(2),#gdList div:nth-child(3),#gdList div:nth-child(4),#gdList div:nth-child(5){
+    margin-top: 0;
+}
+#gdList img{
+    display: inline-block;
+
+}
+
+.p-title{
+    width: 100%;
+    height: 24px;
+    display: inline-block
+}
+.span-price{
+    width: 100%;
+    color: red;
+    display: inline-block
+}
+#gdList button{
+    width: 122px;
+    height: 30px;
+    border: 1px solid green;
+    margin-top:10px;
+    background: white;
+    color: green
+}
+#gdList button:hover{
+    background: green;
+    color: white
+
+}
+#shoppingCarList{
+    width: 380px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    border: 1px solid #f5f5f5;
+    z-index: 30;
+    display: none;
+    box-shadow: 2px 2px 2px#888888;
+    background: white
+}
+.goods-list{
+    width: 100%;
+    height: 84px;
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+
+}
+.goodsPic{
+    width: 72px;
+    height: 72px;
+    float: left
+}
+.goodsPic img{
+    width: 72px;
+    height: 72px;
+}
+.goodsTitle{
+    width: 140px;
+    height: 72px;
+    float: left;
+    margin-left: 20px;
+    line-height: 72px;
+    font-size: 12px;
+}
+.goodsNum{
+    width: 80px;
+    height: 72px;
+    float: left;
+    margin-left: 20px;
+    line-height: 72px;
+}

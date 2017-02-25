@@ -1,0 +1,185 @@
+html,
+body,
+p,
+div,
+img,
+ul,
+li,
+ol,
+button,
+input,
+button,
+span,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#box {
+    width: 540px;
+    height: 608px;
+}
+
+#panel-hd {
+    width: 100%;
+    height: 57px;
+    background: url(../img/titlebg.png);
+    position: relative
+}
+
+#panel-cont {
+    background: #e7f6fa;
+    width: 100%;
+    height: 550px;
+    border-top: 1px solid #e6e6e6;
+}
+
+#panel-close {
+    width: 29px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    top: 17px;
+    right: 10px;
+    color: #b5cec7;
+}
+
+#panel-close:hover {
+    cursor: pointer
+}
+
+#panel-title {
+    width: 400px;
+    height: 57px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    line-height: 57px;
+}
+span{
+    color: #959393
+}
+a{
+    color: #0082cb;
+
+}
+a:hover{
+    text-decoration: underline
+}
+form {
+    width: 400px;
+    height: 490px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#panel-cont p {
+    width: 380px;
+    height: 60px;
+    line-height: 60px;
+    position: relative
+}
+p .tips{
+    display: none;
+    color: red;
+     position: absolute;
+    bottom: 20px;
+    left: 120px;
+    font-size: 12px;
+    width: auto;
+    height: 15px;
+}
+#panel-cont input {
+    width: 261px;
+    height: 33px;
+    float: right;
+    margin-top: 12px;
+}
+
+#randomCodeP input {
+    width: 80px;
+    height: 33px;
+    position: absolute;
+    left: 120px;
+}
+#randomCodeP #words{
+    float: left;
+    width: 60px;
+    height: 20px;
+    margin-left: 20px;
+    color: black;
+}
+#randomCode{
+    width: 80px;
+    height: 33px;
+    position: absolute;
+    left: 220px;
+    top: 12px;
+    border: 1px solid #cddfef;
+    display: block;
+    line-height: 33px;
+}
+#randomCodeP #change{
+    position: absolute;
+    right: 20px;
+}
+#change:hover{
+    cursor: pointer;
+}
+
+#div-register {
+    width: 380px;
+    height: 52px;
+    position: relative
+}
+
+#div-register button {
+    width: 263px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    background: green;
+    border-radius: 5px;
+}
+#div-register button:hover{
+    background: #75d537
+}
+#agree {
+    width: 100%;
+    height: 14px;
+    font-size: 14px;
+}
+
+#agree input {
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin-top: 0;
+    margin-left: 120px;
+}
+
+#agree span {
+    float: left;
+    height: 14px;
+    width: auto;
+    font-size: 12px;
+}
+#panel-cont p i{
+    position: absolute;
+    right: -20px;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    display: none;
+    color: green;
+}
